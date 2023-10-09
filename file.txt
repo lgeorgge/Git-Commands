@@ -1,0 +1,37 @@
+------------------------  git course ----------------------------
+
+for git commands on github:
+https://github.com/joshnh/Git-Commands
+
+1- git add . ->add all files to staging area
+2- git rm --cahched 'filename' -> remove from staging area
+3- git rm -f 'filename' -> delete permenantly
+4- git commit -m "message" ::(the first commit mostly has the message "initial commit")
+5- git log ->view commits
+6- the master branch is the lastest changes on files
+7- git checkout addres in git log -> returns to time where you made this commit temprorily
+8- git checkout master ->goes to the last update you made
+9- git revert addres in git log->undo the the commit but you go to it again
+10- git reset --hard addres in git log-> does the same but with n going back
+11- git log --oneline -> view changes in shorter version
+12- types of git reset{
+    | soft:
+        moves back one commitwithout changing the file
+    || mixed:
+        it's the default command,it makes the file not commited and not in the staging area,but in the directory
+    ||| hard :
+        deletes from thing from the moment of commitment
+}
+13- .gitignore is a folder where you keep the files that won;t be committed
+14- touch .gitignore then add and commit it,then git rm -r --cached then add file names in gitignore
+15- to do it in directorys,write foldername/* in gitignore files so it ignores all files in it
+16- git checkout -b name -> makes a new branch and moves to it
+17- git branch filename -> creates a branch
+18- git branch -a -> show all branches and the one you are on
+19- git branch -d branchname -> deletes the branches
+20- git merge branchname -> merges the branchname into the current branch
+21- 
+
+
+
+
